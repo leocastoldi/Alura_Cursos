@@ -8,3 +8,13 @@ git config definir email e usuario
 git add <nome do arquivo> cria um arquivo com o nome digitado!
 git commit –m “coloque sua mensagem aqui” para salvar alterações do arquivo com mensagem de controle
 
+git push -u origin master enviar arquivos para repositorio online no Git Hub
+
+HEAD: Estado atual do nosso código, ou seja, onde o Git nos colocou
+
+Working tree: Local onde os arquivos realmente estão sendo armazenados e editados
+
+index: Local onde o Git armazena o que será commitado, ou seja, o local entre a working tree e o repositório Git em si.
+
+
+-----------------Parei no curso: Vendo historico!---------------------------------
