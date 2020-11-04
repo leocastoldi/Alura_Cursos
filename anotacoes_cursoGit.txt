@@ -1,0 +1,24 @@
+Aula 1
+    Criar uma pasta em meus documentos chamada GitHub.
+    Criar um arquivo html chamado index.html (verificar o conteudo do arquivo no site do curso)
+    Usar o GitBash para acessar essa pasta e inicializar um repositorio usando o comando
+    criar um arquivo com as anotações do curso e anotar os comandos apresentados!! (anotacoes_cursogit.txt)
+Aula 2
+    usar o comando git add e incluir o arquivo index.html para ser monitorado pelo git    
+    criar um commit com uma mensagem informando a inclusao do arquivo index.html no git
+    usando o comando git commit -m "mensagem da mudança"
+    usar o comando git add . para incluir o arquivo anotacoes_cursogit.txt no git 
+    usar o comando git commit -m para informar que o arquivo anotacoes_cursogit foi criado
+
+
+
+
+curso parado no video "vendo historico"
+
+Comandos Git
+
+    Git init -- inicializa um um repositorio na pasta em que está
+    Git status -- para verificar se está em uma pasta repositorio
+    Git add <nome do arquvivo> -- inclui arquivo para ser monitorado pelo git
+    Git add . inclui todos os arquivos da pagina no monitoramento do git
+    git commit -m "" -- inclui uma mensagem e salva o arquvo alterado no git
