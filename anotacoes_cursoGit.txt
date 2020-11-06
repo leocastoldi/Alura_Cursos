@@ -1,7 +1,7 @@
 Aula 1
     Criar uma pasta em meus documentos chamada GitHub.
     Criar um arquivo html chamado index.html (verificar o conteudo do arquivo no site do curso)
-    Usar o GitBash para acessar essa pasta e inicializar um repositorio usando o comando
+    Usar o GitBash para acessar essa pasta e inicializar um repositorio usando o comando git init
     criar um arquivo com as anotações do curso e anotar os comandos apresentados!! (anotacoes_cursogit.txt)
 Aula 2
     usar o comando git add e incluir o arquivo index.html para ser monitorado pelo git    
@@ -9,16 +9,40 @@ Aula 2
     usando o comando git commit -m "mensagem da mudança"
     usar o comando git add . para incluir o arquivo anotacoes_cursogit.txt no git 
     usar o comando git commit -m para informar que o arquivo anotacoes_cursogit foi criado
+    Modificar o arquivo index.html
+    Adicionar arquivo com git add
+    adicionar commit com a mensagem
+    Usar comando git status pra confirmar se está tudo correto
+    usa git log para verificar commits enviadas
+    criar arquivos no vs code ide-config e .gitignore
+    no git bash adicionar git ignore a lista
+    commitar adição
+    verificar status e confirmar se ide-confg nao está sendo moniitorado
+    incluir o nome ide-config no arquivo .gitignore
+    adicionar e commitar mudança.
+Aula 3  Compartilhamento remoto
+    Subir uma pasta usando o comando cd ..
+    Criar uma pasta usando o comando mkkdir chamada servidor
+    dar comando git init --bare
+    voltar a pasta do curso git
+    incluir um servidor remoto com o comando git remote add <pasta onde será salvo os arquivos>
+    usar comando git remote add <nome da pasta> (endereço da pasta)
+    usar comando git remote -v para verificar se está configurado para enviar e receber os arquivos das pastas desejadas
+    criar uma pasta chamada ana
+    clonar o servidor dentro da pasta ana com o nome de projeto usando o comando git clone <endereço da pasta> <nome da pasta que deseja>
 
 
-
-
-curso parado no video "vendo historico"
+curso parado no video "servidores remortos"
 
 Comandos Git
-
+    
     Git init -- inicializa um um repositorio na pasta em que está
     Git status -- para verificar se está em uma pasta repositorio
     Git add <nome do arquvivo> -- inclui arquivo para ser monitorado pelo git
     Git add . inclui todos os arquivos da pagina no monitoramento do git
     git commit -m "" -- inclui uma mensagem e salva o arquvo alterado no git
+    Git log, exibe as commits do repositorio
+    Git init --bare indicando que o repositorio é puro somente para armazenar arquivos
+    git remote lista os repositorios remotos
+    git remote add <nome da pasta> <endereço da pasta> inclui pasta como servidor remoto
+    
