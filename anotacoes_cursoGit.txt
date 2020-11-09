@@ -17,11 +17,16 @@ Aula 2
     criar arquivos no vs code ide-config e .gitignore
     no git bash adicionar git ignore a lista
     commitar adição
-    verificar status e confirmar se ide-confg nao está sendo moniitorado
+    verificar status e confirmar se ide-confg nao está sendo monitorado
     incluir o nome ide-config no arquivo .gitignore
     adicionar e commitar mudança.
+    
 Aula 3  Compartilhamento remoto
     Subir uma pasta usando o comando cd ..
+    criar uma pasta chamada Leo
+    copiar todos os arquivos para essa pasta leo
+    dar os comandos de monitoramente e de commit
+    
     Criar uma pasta usando o comando mkkdir chamada servidor
     dar comando git init --bare
     voltar a pasta do curso git
@@ -34,6 +39,12 @@ Aula 3  Compartilhamento remoto
 
 curso parado no video "servidores remortos"
 
+computadores configurados:
+Sonia Note: ok
+leo note: no
+Ju note : no
+Bid desk; no
+    
 Comandos Git
     
     Git init -- inicializa um um repositorio na pasta em que está
