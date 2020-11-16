@@ -35,9 +35,32 @@ Aula 3  Compartilhamento remoto
     usar comando git remote -v para verificar se está configurado para enviar e receber os arquivos das pastas desejadas
     criar uma pasta chamada ana
     clonar o servidor dentro da pasta ana com o nome de projeto usando o comando git clone <endereço da pasta> <nome da pasta que deseja>
+  acessar a pasta Leo dar o comando "git remote" Deve aparecer o nome do servidor <servidor>
+  dar o comando "git push servidor master" copiando os dados da pasta Leo "master" para o servidor "servidor"
+  accesar a pasta ana
+  acessar pasta projeto
+  dar o comando git remote
+  renomear o servidor para o mesmo nome do servidor da pasta leo usando o comando "git remote rename origin<servidor pasta ana> servidor<servidor pasta leo>"
+  dar o comando "git pull servidor master" (está copiando os arquivos do servidor para a master dentro da pasta projeto na pasta ana)
+  dar comando ls para verificar quais arquvivos estão presentes
+  abrir o vscode e incluir a pasta ana no espaço de trabalho!
+  Verificar se os arquivos estão iguais
+  fazer  uma modificação no arquivo index.html
+  adicionar o arquivo no git com o git add
+  comitar a mudança do nome do curso
+  enviar as modificações dos arquivos para o servidor com o comando pushc"git push servidor master"
+  acessar a pasta leo
+  dar o comando git status "estará tudo ok, porem houve a mudança do arquivo index.html"
+  dar o comando para trazer atualizações dos arquivos da pasta servidor para dentro da pasta Leo com o comando  "git pull servidor master"
+  dar o comando git log -p para verificar quais foram as modificações feitas nos arquivos
+
+  
+  
+  
+  
 
 
-curso parado no video "servidores remortos"
+curso parado no video "06 Git hub aula 3"
 
 computadores configurados:
 Sonia Note: ok
@@ -56,4 +79,6 @@ Comandos Git
     Git init --bare indicando que o repositorio é puro somente para armazenar arquivos
     git remote lista os repositorios remotos
     git remote add <nome da pasta> <endereço da pasta> inclui pasta como servidor remoto
-    
+    git push <envia os dados da master para a pasta servidor> servidor master
+    git pull servidor master (puxa as modificações dos arquivos do servidor para a pasta que está logado)
+    git log -p para verificar quais foram as modificações feitas nos arquivos
