@@ -64,7 +64,7 @@ curso parado no video "06 Git hub aula 3"
 
 computadores configurados:
 Sonia Note: ok
-leo note: no
+leo note: ok
 Ju note : no
 Bid desk; no
     
