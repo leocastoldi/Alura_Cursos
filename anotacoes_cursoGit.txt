@@ -53,6 +53,13 @@ Aula 3  Compartilhamento remoto
   dar o comando git status "estará tudo ok, porem houve a mudança do arquivo index.html"
   dar o comando para trazer atualizações dos arquivos da pasta servidor para dentro da pasta Leo com o comando  "git pull servidor master"
   dar o comando git log -p para verificar quais foram as modificações feitas nos arquivos
+  
+  acessar o site do git hub criar um repositorio com o nome de cursogit
+  no termiinal dar o seguinte comando git remote add origin https://github.com/leocastoldi/gitalura.git para adicionar o repositorio como servidor
+  dar o comando git push origin master para enviar os documentos para o servidor
+  
+  
+
 
   
   
@@ -60,7 +67,7 @@ Aula 3  Compartilhamento remoto
   
 
 
-curso parado no video "06 Git hub aula 3"
+curso parado no video "01 branches aula 4"
 
 computadores configurados:
 Sonia Note: ok
