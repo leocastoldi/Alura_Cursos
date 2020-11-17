@@ -57,6 +57,20 @@ Aula 3  Compartilhamento remoto
   acessar o site do git hub criar um repositorio com o nome de cursogit
   no termiinal dar o seguinte comando git remote add origin https://github.com/leocastoldi/gitalura.git para adicionar o repositorio como servidor
   dar o comando git push origin master para enviar os documentos para o servidor
+
+Aula 4 
+    Para modificar a Brand de trabalho que está na master é só dar o comando git branch titulo e assim é criada uma brand chamada titulo
+    para ir para essa nova brand basta dar o comando git checkout titulo
+    criar a branch titulo com o comando git branch titulo
+    entrar na branch titulo com o comando checkout titulo
+    fazer uma modificação no arquivo index
+    adicionar o arquivo 
+    commitar as mudanças
+    criar um nova branck lista dentro da pasta projeto
+    entrar na branch lista 
+    Fazer modificações arquivo index.html
+    adicionar arquivo
+    commitar mudanças
   
   
 
@@ -71,7 +85,7 @@ curso parado no video "01 branches aula 4"
 
 computadores configurados:
 Sonia Note: ok
-leo note: ok
+leo note: no
 Ju note : no
 Bid desk; no
     
@@ -89,3 +103,6 @@ Comandos Git
     git push <envia os dados da master para a pasta servidor> servidor master
     git pull servidor master (puxa as modificações dos arquivos do servidor para a pasta que está logado)
     git log -p para verificar quais foram as modificações feitas nos arquivos
+    git branch titulo cria uma nova brand chamada titulo
+    git checkout titulo inicia na nova brand
+    
