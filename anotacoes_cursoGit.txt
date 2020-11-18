@@ -71,7 +71,17 @@ Aula 4
     Fazer modificações arquivo index.html
     adicionar arquivo
     commitar mudanças
-  
+    Para unir as mudanças basta usar o comando git merge titul(nome da nova branch)
+    apos unir as duas branchs, atualizar o servidor usando comando push local master
+    sair da pasta leo
+    Acessar a pasta ana 
+    acessar a pasta projeto
+    unir com o comando merge as branchs lista e master
+    dar o comando para puxar a atualização da pasta leo
+    dar o comando para atulizar o servidor com o comando push local master
+    Assim como o merge podemos trabalhar com o rebase e dessa formas incluir os commids da outra branh na mesma sequencia
+ Aula 5
+ 
   
 
 
@@ -81,11 +91,11 @@ Aula 4
   
 
 
-curso parado no video "01 branches aula 4"
+curso parado no video "01 Ctrl + Z no Git aula 5"
 
 computadores configurados:
-Sonia Note: ok
-leo note: no
+Sonia Note: no
+leo note: ok 5
 Ju note : no
 Bid desk; no
     
